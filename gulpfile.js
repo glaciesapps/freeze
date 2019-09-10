@@ -136,7 +136,6 @@ gulp.task('admin-js', (done) => {
     'permissions',
     'reports',
     'settings',
-    'travel',
     'users',
   ];
     // map them to our stream function
@@ -180,8 +179,7 @@ gulp.task('modules-js', (done) => {
     'employees',
     'reports',
     'staffdirectory',
-    'time_sheets',
-    'travel',
+    'time_sheets'
   ];
     // map them to our stream function
   const tasks = files.map(entry => browserify({
