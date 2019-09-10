@@ -1,11 +1,11 @@
-<?php 
+<?php
 ini_set('error_log', 'data/icehrm.log');
 
-define('CLIENT_NAME', 'icehrmpro');
+define('CLIENT_NAME', 'testing');
 define('APP_BASE_PATH', '/vagrant/');
 define('CLIENT_BASE_PATH', '/vagrant/deployment/clients/test/');
-define('BASE_URL','http://app.app.dev/');
-define('CLIENT_BASE_URL','http://clients.app.dev/test/');
+define('BASE_URL','http://app.freeze.test/');
+define('CLIENT_BASE_URL','http://clients.freeze.test/test/');
 
 define('APP_DB', 'testing');
 define('APP_USERNAME', 'testing');

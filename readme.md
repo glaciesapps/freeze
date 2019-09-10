@@ -85,15 +85,15 @@ Preparing development VM with Vagrant
 - Add following entries to the end of the host file to map icehrm domains to VagrantBox (on MacOS and Linux this is /etc/hosts | on windows this is Windows\System32\Drivers\etc\hosts)
 
 ```
-192.168.40.40   app.icehrm-open.test
-192.168.40.40   clients.icehrm-open.test
+192.168.40.41   app.freeze.test
+192.168.40.41   clients.freeze.test
 ```
 
-- Navigate to [http://clients.icehrm-open.test/dev](http://clients.icehrm-open.test/dev) to load icehrm from VM. (user:admin/pass:admin)
+- Navigate to [http://clients.freeze.test/dev](http://clients.freeze.test/dev) to load application from VM. (user:admin/pass:admin)
 
 ### Notes to Developers
 
-- When ever you have done a change to JavaScript or CSS files in icehrm/web rebuild the frontend
+- When ever you have done a change to JavaScript or CSS files in freeze/web rebuild the frontend
 ```
 ~ $ cd /vagrant
 ~ $ gulp

@@ -4,13 +4,13 @@
 Vagrant.configure(2) do |config|
   config.vm.box = "thilinah/jessie64_isotope"
   config.vm.box_version = "0.0.1"
-  config.vm.network "private_network", ip: "192.168.40.40"
+  config.vm.network "private_network", ip: "192.168.40.41"
   config.vm.synced_folder ".", "/vagrant", type: "nfs"
 
   config.vm.provider "virtualbox" do |vb|
     vb.memory = "1024"
     vb.cpus = "2"
-    vb.name = "icehrm.open"
+    vb.name = "freeze"
   end
 
 
@@ -21,6 +21,6 @@ Vagrant.configure(2) do |config|
     sh /vagrant/deployment/vagrant/runonce.sh
   SHELL
 
-  config.vm.hostname = "icehrm.open"
+  config.vm.hostname = "freeze"
 
 end
