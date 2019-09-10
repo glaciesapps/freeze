@@ -125,7 +125,6 @@ gulp.task('admin-js', (done) => {
   // we define our input files, which we want to have
   // bundled:
   const files = [
-    'attendance',
     'company_structure',
     'dashboard',
     'data',
@@ -181,7 +180,6 @@ gulp.task('modules-js', (done) => {
   // we define our input files, which we want to have
   // bundled:
   const files = [
-    'attendance',
     'dashboard',
     'dependents',
     'emergency_contact',
