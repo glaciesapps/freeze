@@ -1,6 +1,7 @@
 .settings
 .buildpath
 .project
+.idea
 build
 deployment/clients/dev/data/
 deployment/clients/test/data/

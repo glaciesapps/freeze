@@ -125,25 +125,17 @@ gulp.task('admin-js', (done) => {
   // we define our input files, which we want to have
   // bundled:
   const files = [
-    'attendance',
     'company_structure',
     'dashboard',
     'data',
     'employees',
     'fieldnames',
     'jobs',
-    'loans',
     'metadata',
     'modules',
-    'overtime',
-    'payroll',
     'permissions',
-    'projects',
-    'qualifications',
     'reports',
-    'salary',
     'settings',
-    'travel',
     'users',
   ];
     // map them to our stream function
@@ -181,20 +173,13 @@ gulp.task('modules-js', (done) => {
   // we define our input files, which we want to have
   // bundled:
   const files = [
-    'attendance',
     'dashboard',
     'dependents',
     'emergency_contact',
     'employees',
-    'loans',
-    'overtime',
-    'projects',
-    'qualifications',
     'reports',
-    'salary',
     'staffdirectory',
-    'time_sheets',
-    'travel',
+    'time_sheets'
   ];
     // map them to our stream function
   const tasks = files.map(entry => browserify({
