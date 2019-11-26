@@ -174,12 +174,8 @@ gulp.task('modules-js', (done) => {
   // bundled:
   const files = [
     'dashboard',
-    'dependents',
-    'emergency_contact',
     'employees',
-    'reports',
-    'staffdirectory',
-    'time_sheets'
+    'reports'
   ];
     // map them to our stream function
   const tasks = files.map(entry => browserify({
