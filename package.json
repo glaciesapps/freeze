@@ -32,7 +32,7 @@
     "vinyl-source-stream": "^2.0.0"
   },
   "dependencies": {
-    "d3": "^5.9.1",
+    "d3": "^7.6.1",
     "event-stream": "^4.0.1",
     "gulp-concat": "^2.6.1",
     "gulp-copy": "^4.0.1",
